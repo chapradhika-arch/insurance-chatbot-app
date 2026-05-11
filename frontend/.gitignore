@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.angular/
+out-tsc/
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local-only env overrides (the committed `environment.ts` is safe — it has NO secrets,
+# only the public backend base URL). Add `environment.local.ts` here if you ever introduce
+# a non-committed override.
+src/environments/environment.local.ts
